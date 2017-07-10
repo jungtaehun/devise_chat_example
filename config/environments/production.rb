@@ -81,10 +81,10 @@ Rails.application.configure do
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
 
-  config.action_cable.allowed_request_origins = ['https://salty-brook-71592.herokuapp.com/',
-                                                 'https://salty-brook-71592.herokuapp.com/']
+  config.action_cable.allowed_request_origins = ['https://warm-refuge-81562.herokuapp.com/',
+                                                 'https://warm-refuge-81562.herokuapp.com/']
 
-  config.action_cable.url = "wss://salty-brook-71592.herokuapp.com/cable"
+  config.action_cable.url = "wss://warm-refuge-81562.herokuapp.com/cable"
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
