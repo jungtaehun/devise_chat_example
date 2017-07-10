@@ -22,6 +22,11 @@ gem 'coffee-rails', '~> 4.2'
 gem 'devise'
 gem 'bootstrap'
 
+# 부트스트랩
+gem 'bootstrap-sass', '~> 3.3.6'
+# 부트스트랩 form tag
+gem 'bootstrap_form'
+# 부트스트랩 devise
 gem 'devise-bootstrap-views'
 
 # Use jquery as the JavaScript library
@@ -34,6 +39,15 @@ gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+# rails 전반적인 locale 설정
+gem 'rails-i18n'
+# 한글화된 devise
+gem 'devise-i18n'
+# 페이지네이션
+gem 'kaminari'
+# 타임스탬프를 한국 시간으로 보기쉽게 하기
+gem 'local_time'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -51,7 +65,14 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'sqlite3'
+  # 데이터베이스 시각화
+  gem 'rails_db'
+  # 업그레이드 된 IRB
+  gem 'pry'
+  # 업그레이드 된 레일즈 용 콘솔
   gem 'pry-rails'
+  # 이쁘게 출력하기
+  gem 'awesome_print'
 end
 
 group :production do
