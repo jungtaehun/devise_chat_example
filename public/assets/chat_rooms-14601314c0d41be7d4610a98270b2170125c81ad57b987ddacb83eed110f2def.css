@@ -1,0 +1,9 @@
+/* line 4, /home/bada/RubymineProjects/CableChat/app/assets/stylesheets/chat_rooms.scss */
+#messages {
+  max-height: 450px;
+  overflow-y: auto;
+}
+/* line 7, /home/bada/RubymineProjects/CableChat/app/assets/stylesheets/chat_rooms.scss */
+#messages .avatar {
+  margin: 0.5rem;
+}

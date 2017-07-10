@@ -12,6 +12,9 @@ gem 'rails', '~> 5.0.4'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
+gem "paperclip", "~> 5.0.0.beta1"
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -20,10 +23,11 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'devise'
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap'
 
-# 부트스트랩
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
 # 부트스트랩 form tag
 gem 'bootstrap_form'
 # 부트스트랩 devise

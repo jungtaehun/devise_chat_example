@@ -1,0 +1,30 @@
+/* universal */
+/* line 4, /home/bada/RubymineProjects/CableChat/app/assets/stylesheets/custom.scss */
+body {
+  padding-top: 80px;
+}
+
+/* line 8, /home/bada/RubymineProjects/CableChat/app/assets/stylesheets/custom.scss */
+.table td.fit,
+.table th.fit {
+  white-space: nowrap;
+  width: 1%;
+}
+
+/* header */
+/* line 16, /home/bada/RubymineProjects/CableChat/app/assets/stylesheets/custom.scss */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+/* line 25, /home/bada/RubymineProjects/CableChat/app/assets/stylesheets/custom.scss */
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
