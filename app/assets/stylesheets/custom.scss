@@ -1,4 +1,8 @@
 /* universal */
+
+body {
+
+}
 .table td.fit,
 .table th.fit {
   white-space: nowrap;
@@ -18,13 +22,5 @@
   &:hover {
     color: #fff;
     text-decoration: none;
-  }
-}
-
-#messages {
-  max-height: 450px;
-  overflow-y: auto;
-  .avatar {
-    margin: 0.5rem;
   }
 }
